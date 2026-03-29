@@ -1,0 +1,18 @@
+[project]
+name = "playlist-transfer"
+version = "0.1.0"
+description = "a tool to transfer playlists from one music platform to another"
+authors = [
+    {name = "eggplanta"}
+]
+requires-python = ">=3.13"
+dependencies = [
+    "spotipy (>=2.26.0,<3.0.0)",
+    "ytmusicapi (>=1.11.5,<2.0.0)",
+    "rich (>=14.3.3,<15.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,6 @@
+.cache
+oauth.json
+headers.json
+__pycache__/
+.venv/
+.env
